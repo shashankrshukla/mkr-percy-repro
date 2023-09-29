@@ -1,0 +1,22 @@
+version: 2
+snapshot:
+  widths:
+    - 375
+    - 1280
+  minHeight: 1024
+  percyCSS: ""
+  enableJavaScript: true
+  cliEnableJavaScript: true
+  disableShadowDOM: false
+discovery:
+  allowedHostnames: 
+    - cdn.shopify.com
+    - res.cloudinary.com
+  disallowedHostnames: 
+  networkIdleTimeout: 750
+  disable-cache: false
+  concurrency: 3
+upload:
+  files: "**/*.{png,jpg,jpeg}"
+  ignore: ""
+  stripExtensions: false
